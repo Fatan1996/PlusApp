@@ -4,26 +4,19 @@
 //
 //  Created by Faten Abdullh salem on 20/05/1443 AH.
 //
-
 import UIKit
 
-class Activity: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+struct Activity {
+    static func showIndicator(parentView:UIView,childView activityIndicator:UIActivityIndicatorView) {
+        parentView.addSubview(activityIndicator)
+        activityIndicator.center = parentView.center
+        activityIndicator.startAnimating()
+        parentView.isUserInteractionEnabled = false
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    static func removeIndicator(parentView:UIView,childView activityIndicator:UIActivityIndicatorView) {
+        activityIndicator.removeFromSuperview()
+        activityIndicator.stopAnimating()
+        parentView.isUserInteractionEnabled = true
     }
-    */
-
 }
+
