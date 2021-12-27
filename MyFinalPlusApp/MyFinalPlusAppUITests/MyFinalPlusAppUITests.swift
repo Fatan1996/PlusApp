@@ -1,13 +1,13 @@
 //
-//  Plus_AppUITests.swift
-//  Plus AppUITests
+//  MyFinalPlusAppUITests.swift
+//  MyFinalPlusAppUITests
 //
-//  Created by Faten Abdullh salem on 17/05/1443 AH.
+//  Created by Faten Abdullh salem on 20/05/1443 AH.
 //
 
 import XCTest
 
-class Plus_AppUITests: XCTestCase {
+class MyFinalPlusAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

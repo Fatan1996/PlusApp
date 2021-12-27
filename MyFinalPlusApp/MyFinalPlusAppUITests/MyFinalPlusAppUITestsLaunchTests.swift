@@ -1,13 +1,13 @@
 //
-//  Plus_AppUITestsLaunchTests.swift
-//  Plus AppUITests
+//  MyFinalPlusAppUITestsLaunchTests.swift
+//  MyFinalPlusAppUITests
 //
-//  Created by Faten Abdullh salem on 17/05/1443 AH.
+//  Created by Faten Abdullh salem on 20/05/1443 AH.
 //
 
 import XCTest
 
-class Plus_AppUITestsLaunchTests: XCTestCase {
+class MyFinalPlusAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

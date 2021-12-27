@@ -7,72 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B0A415F2771E32F00959CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A415E2771E32F00959CAB /* AppDelegate.swift */; };
-		9B0A41612771E32F00959CAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A41602771E32F00959CAB /* SceneDelegate.swift */; };
-		9B0A41632771E32F00959CAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A41622771E32F00959CAB /* ViewController.swift */; };
-		9B0A41662771E32F00959CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A41642771E32F00959CAB /* Main.storyboard */; };
-		9B0A41682771E32F00959CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A41672771E32F00959CAB /* Assets.xcassets */; };
-		9B0A416B2771E32F00959CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0A41692771E32F00959CAB /* LaunchScreen.storyboard */; };
-		9B0A41762771E33000959CAB /* Plus_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A41752771E33000959CAB /* Plus_AppTests.swift */; };
-		9B0A41802771E33000959CAB /* Plus_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A417F2771E33000959CAB /* Plus_AppUITests.swift */; };
-		9B0A41822771E33000959CAB /* Plus_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A41812771E33000959CAB /* Plus_AppUITestsLaunchTests.swift */; };
-		9B0A41902771FB0700959CAB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0A418F2771FB0700959CAB /* FirebaseAuth */; };
-		9B0A41922771FB0700959CAB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0A41912771FB0700959CAB /* FirebaseFirestore */; };
-		9B0A41942771FB0700959CAB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0A41932771FB0700959CAB /* FirebaseStorage */; };
+		9BDB01EF2775BEB400505551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB01EE2775BEB400505551 /* AppDelegate.swift */; };
+		9BDB01F12775BEB400505551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB01F02775BEB400505551 /* SceneDelegate.swift */; };
+		9BDB01F32775BEB400505551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB01F22775BEB400505551 /* ViewController.swift */; };
+		9BDB01F62775BEB400505551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB01F42775BEB400505551 /* Main.storyboard */; };
+		9BDB01F82775BEB700505551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB01F72775BEB700505551 /* Assets.xcassets */; };
+		9BDB01FB2775BEB700505551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB01F92775BEB700505551 /* LaunchScreen.storyboard */; };
+		9BDB02062775BEB700505551 /* MyFinalPlusAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB02052775BEB700505551 /* MyFinalPlusAppTests.swift */; };
+		9BDB02102775BEB700505551 /* MyFinalPlusAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB020F2775BEB700505551 /* MyFinalPlusAppUITests.swift */; };
+		9BDB02122775BEB700505551 /* MyFinalPlusAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB02112775BEB700505551 /* MyFinalPlusAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9B0A41722771E33000959CAB /* PBXContainerItemProxy */ = {
+		9BDB02022775BEB700505551 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9B0A41532771E32F00959CAB /* Project object */;
+			containerPortal = 9BDB01E32775BEB400505551 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9B0A415A2771E32F00959CAB;
-			remoteInfo = "Plus App";
+			remoteGlobalIDString = 9BDB01EA2775BEB400505551;
+			remoteInfo = MyFinalPlusApp;
 		};
-		9B0A417C2771E33000959CAB /* PBXContainerItemProxy */ = {
+		9BDB020C2775BEB700505551 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9B0A41532771E32F00959CAB /* Project object */;
+			containerPortal = 9BDB01E32775BEB400505551 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9B0A415A2771E32F00959CAB;
-			remoteInfo = "Plus App";
+			remoteGlobalIDString = 9BDB01EA2775BEB400505551;
+			remoteInfo = MyFinalPlusApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9B0A415B2771E32F00959CAB /* Plus App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plus App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B0A415E2771E32F00959CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B0A41602771E32F00959CAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B0A41622771E32F00959CAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9B0A41652771E32F00959CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B0A41672771E32F00959CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9B0A416A2771E32F00959CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9B0A416C2771E33000959CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B0A41712771E33000959CAB /* Plus AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plus AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B0A41752771E33000959CAB /* Plus_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plus_AppTests.swift; sourceTree = "<group>"; };
-		9B0A417B2771E33000959CAB /* Plus AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Plus AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B0A417F2771E33000959CAB /* Plus_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plus_AppUITests.swift; sourceTree = "<group>"; };
-		9B0A41812771E33000959CAB /* Plus_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plus_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BDB01EB2775BEB400505551 /* MyFinalPlusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFinalPlusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDB01EE2775BEB400505551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BDB01F02775BEB400505551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9BDB01F22775BEB400505551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BDB01F52775BEB400505551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BDB01F72775BEB700505551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BDB01FA2775BEB700505551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BDB01FC2775BEB700505551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BDB02012775BEB700505551 /* MyFinalPlusAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFinalPlusAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDB02052775BEB700505551 /* MyFinalPlusAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFinalPlusAppTests.swift; sourceTree = "<group>"; };
+		9BDB020B2775BEB700505551 /* MyFinalPlusAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFinalPlusAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BDB020F2775BEB700505551 /* MyFinalPlusAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFinalPlusAppUITests.swift; sourceTree = "<group>"; };
+		9BDB02112775BEB700505551 /* MyFinalPlusAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFinalPlusAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9B0A41582771E32F00959CAB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B0A41902771FB0700959CAB /* FirebaseAuth in Frameworks */,
-				9B0A41922771FB0700959CAB /* FirebaseFirestore in Frameworks */,
-				9B0A41942771FB0700959CAB /* FirebaseStorage in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B0A416E2771E33000959CAB /* Frameworks */ = {
+		9BDB01E82775BEB400505551 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B0A41782771E33000959CAB /* Frameworks */ = {
+		9BDB01FE2775BEB700505551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDB02082775BEB700505551 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,142 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9B0A41522771E32F00959CAB = {
+		9BDB01E22775BEB400505551 = {
 			isa = PBXGroup;
 			children = (
-				9B0A415D2771E32F00959CAB /* Plus App */,
-				9B0A41742771E33000959CAB /* Plus AppTests */,
-				9B0A417E2771E33000959CAB /* Plus AppUITests */,
-				9B0A415C2771E32F00959CAB /* Products */,
+				9BDB01ED2775BEB400505551 /* MyFinalPlusApp */,
+				9BDB02042775BEB700505551 /* MyFinalPlusAppTests */,
+				9BDB020E2775BEB700505551 /* MyFinalPlusAppUITests */,
+				9BDB01EC2775BEB400505551 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9B0A415C2771E32F00959CAB /* Products */ = {
+		9BDB01EC2775BEB400505551 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B0A415B2771E32F00959CAB /* Plus App.app */,
-				9B0A41712771E33000959CAB /* Plus AppTests.xctest */,
-				9B0A417B2771E33000959CAB /* Plus AppUITests.xctest */,
+				9BDB01EB2775BEB400505551 /* MyFinalPlusApp.app */,
+				9BDB02012775BEB700505551 /* MyFinalPlusAppTests.xctest */,
+				9BDB020B2775BEB700505551 /* MyFinalPlusAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B0A415D2771E32F00959CAB /* Plus App */ = {
+		9BDB01ED2775BEB400505551 /* MyFinalPlusApp */ = {
 			isa = PBXGroup;
 			children = (
-				9B0A415E2771E32F00959CAB /* AppDelegate.swift */,
-				9B0A41602771E32F00959CAB /* SceneDelegate.swift */,
-				9B0A41622771E32F00959CAB /* ViewController.swift */,
-				9B0A41642771E32F00959CAB /* Main.storyboard */,
-				9B0A41672771E32F00959CAB /* Assets.xcassets */,
-				9B0A41692771E32F00959CAB /* LaunchScreen.storyboard */,
-				9B0A416C2771E33000959CAB /* Info.plist */,
+				9BDB01EE2775BEB400505551 /* AppDelegate.swift */,
+				9BDB01F02775BEB400505551 /* SceneDelegate.swift */,
+				9BDB01F22775BEB400505551 /* ViewController.swift */,
+				9BDB01F42775BEB400505551 /* Main.storyboard */,
+				9BDB01F72775BEB700505551 /* Assets.xcassets */,
+				9BDB01F92775BEB700505551 /* LaunchScreen.storyboard */,
+				9BDB01FC2775BEB700505551 /* Info.plist */,
 			);
-			path = "Plus App";
+			path = MyFinalPlusApp;
 			sourceTree = "<group>";
 		};
-		9B0A41742771E33000959CAB /* Plus AppTests */ = {
+		9BDB02042775BEB700505551 /* MyFinalPlusAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				9B0A41752771E33000959CAB /* Plus_AppTests.swift */,
+				9BDB02052775BEB700505551 /* MyFinalPlusAppTests.swift */,
 			);
-			path = "Plus AppTests";
+			path = MyFinalPlusAppTests;
 			sourceTree = "<group>";
 		};
-		9B0A417E2771E33000959CAB /* Plus AppUITests */ = {
+		9BDB020E2775BEB700505551 /* MyFinalPlusAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9B0A417F2771E33000959CAB /* Plus_AppUITests.swift */,
-				9B0A41812771E33000959CAB /* Plus_AppUITestsLaunchTests.swift */,
+				9BDB020F2775BEB700505551 /* MyFinalPlusAppUITests.swift */,
+				9BDB02112775BEB700505551 /* MyFinalPlusAppUITestsLaunchTests.swift */,
 			);
-			path = "Plus AppUITests";
+			path = MyFinalPlusAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B0A415A2771E32F00959CAB /* Plus App */ = {
+		9BDB01EA2775BEB400505551 /* MyFinalPlusApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B0A41852771E33000959CAB /* Build configuration list for PBXNativeTarget "Plus App" */;
+			buildConfigurationList = 9BDB02152775BEB700505551 /* Build configuration list for PBXNativeTarget "MyFinalPlusApp" */;
 			buildPhases = (
-				9B0A41572771E32F00959CAB /* Sources */,
-				9B0A41582771E32F00959CAB /* Frameworks */,
-				9B0A41592771E32F00959CAB /* Resources */,
+				9BDB01E72775BEB400505551 /* Sources */,
+				9BDB01E82775BEB400505551 /* Frameworks */,
+				9BDB01E92775BEB400505551 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Plus App";
-			packageProductDependencies = (
-				9B0A418F2771FB0700959CAB /* FirebaseAuth */,
-				9B0A41912771FB0700959CAB /* FirebaseFirestore */,
-				9B0A41932771FB0700959CAB /* FirebaseStorage */,
-			);
-			productName = "Plus App";
-			productReference = 9B0A415B2771E32F00959CAB /* Plus App.app */;
+			name = MyFinalPlusApp;
+			productName = MyFinalPlusApp;
+			productReference = 9BDB01EB2775BEB400505551 /* MyFinalPlusApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9B0A41702771E33000959CAB /* Plus AppTests */ = {
+		9BDB02002775BEB700505551 /* MyFinalPlusAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B0A41882771E33000959CAB /* Build configuration list for PBXNativeTarget "Plus AppTests" */;
+			buildConfigurationList = 9BDB02182775BEB700505551 /* Build configuration list for PBXNativeTarget "MyFinalPlusAppTests" */;
 			buildPhases = (
-				9B0A416D2771E33000959CAB /* Sources */,
-				9B0A416E2771E33000959CAB /* Frameworks */,
-				9B0A416F2771E33000959CAB /* Resources */,
+				9BDB01FD2775BEB700505551 /* Sources */,
+				9BDB01FE2775BEB700505551 /* Frameworks */,
+				9BDB01FF2775BEB700505551 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9B0A41732771E33000959CAB /* PBXTargetDependency */,
+				9BDB02032775BEB700505551 /* PBXTargetDependency */,
 			);
-			name = "Plus AppTests";
-			productName = "Plus AppTests";
-			productReference = 9B0A41712771E33000959CAB /* Plus AppTests.xctest */;
+			name = MyFinalPlusAppTests;
+			productName = MyFinalPlusAppTests;
+			productReference = 9BDB02012775BEB700505551 /* MyFinalPlusAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9B0A417A2771E33000959CAB /* Plus AppUITests */ = {
+		9BDB020A2775BEB700505551 /* MyFinalPlusAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B0A418B2771E33000959CAB /* Build configuration list for PBXNativeTarget "Plus AppUITests" */;
+			buildConfigurationList = 9BDB021B2775BEB700505551 /* Build configuration list for PBXNativeTarget "MyFinalPlusAppUITests" */;
 			buildPhases = (
-				9B0A41772771E33000959CAB /* Sources */,
-				9B0A41782771E33000959CAB /* Frameworks */,
-				9B0A41792771E33000959CAB /* Resources */,
+				9BDB02072775BEB700505551 /* Sources */,
+				9BDB02082775BEB700505551 /* Frameworks */,
+				9BDB02092775BEB700505551 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9B0A417D2771E33000959CAB /* PBXTargetDependency */,
+				9BDB020D2775BEB700505551 /* PBXTargetDependency */,
 			);
-			name = "Plus AppUITests";
-			productName = "Plus AppUITests";
-			productReference = 9B0A417B2771E33000959CAB /* Plus AppUITests.xctest */;
+			name = MyFinalPlusAppUITests;
+			productName = MyFinalPlusAppUITests;
+			productReference = 9BDB020B2775BEB700505551 /* MyFinalPlusAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9B0A41532771E32F00959CAB /* Project object */ = {
+		9BDB01E32775BEB400505551 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					9B0A415A2771E32F00959CAB = {
+					9BDB01EA2775BEB400505551 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					9B0A41702771E33000959CAB = {
+					9BDB02002775BEB700505551 = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 9B0A415A2771E32F00959CAB;
+						TestTargetID = 9BDB01EA2775BEB400505551;
 					};
-					9B0A417A2771E33000959CAB = {
+					9BDB020A2775BEB700505551 = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 9B0A415A2771E32F00959CAB;
+						TestTargetID = 9BDB01EA2775BEB400505551;
 					};
 				};
 			};
-			buildConfigurationList = 9B0A41562771E32F00959CAB /* Build configuration list for PBXProject "Plus App" */;
+			buildConfigurationList = 9BDB01E62775BEB400505551 /* Build configuration list for PBXProject "MyFinalPlusApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,40 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 9B0A41522771E32F00959CAB;
-			packageReferences = (
-				9B0A418E2771FB0700959CAB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
-			productRefGroup = 9B0A415C2771E32F00959CAB /* Products */;
+			mainGroup = 9BDB01E22775BEB400505551;
+			productRefGroup = 9BDB01EC2775BEB400505551 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B0A415A2771E32F00959CAB /* Plus App */,
-				9B0A41702771E33000959CAB /* Plus AppTests */,
-				9B0A417A2771E33000959CAB /* Plus AppUITests */,
+				9BDB01EA2775BEB400505551 /* MyFinalPlusApp */,
+				9BDB02002775BEB700505551 /* MyFinalPlusAppTests */,
+				9BDB020A2775BEB700505551 /* MyFinalPlusAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9B0A41592771E32F00959CAB /* Resources */ = {
+		9BDB01E92775BEB400505551 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0A416B2771E32F00959CAB /* LaunchScreen.storyboard in Resources */,
-				9B0A41682771E32F00959CAB /* Assets.xcassets in Resources */,
-				9B0A41662771E32F00959CAB /* Main.storyboard in Resources */,
+				9BDB01FB2775BEB700505551 /* LaunchScreen.storyboard in Resources */,
+				9BDB01F82775BEB700505551 /* Assets.xcassets in Resources */,
+				9BDB01F62775BEB400505551 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B0A416F2771E33000959CAB /* Resources */ = {
+		9BDB01FF2775BEB700505551 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B0A41792771E33000959CAB /* Resources */ = {
+		9BDB02092775BEB700505551 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,61 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9B0A41572771E32F00959CAB /* Sources */ = {
+		9BDB01E72775BEB400505551 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0A41632771E32F00959CAB /* ViewController.swift in Sources */,
-				9B0A415F2771E32F00959CAB /* AppDelegate.swift in Sources */,
-				9B0A41612771E32F00959CAB /* SceneDelegate.swift in Sources */,
+				9BDB01F32775BEB400505551 /* ViewController.swift in Sources */,
+				9BDB01EF2775BEB400505551 /* AppDelegate.swift in Sources */,
+				9BDB01F12775BEB400505551 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B0A416D2771E33000959CAB /* Sources */ = {
+		9BDB01FD2775BEB700505551 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0A41762771E33000959CAB /* Plus_AppTests.swift in Sources */,
+				9BDB02062775BEB700505551 /* MyFinalPlusAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B0A41772771E33000959CAB /* Sources */ = {
+		9BDB02072775BEB700505551 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0A41822771E33000959CAB /* Plus_AppUITestsLaunchTests.swift in Sources */,
-				9B0A41802771E33000959CAB /* Plus_AppUITests.swift in Sources */,
+				9BDB02102775BEB700505551 /* MyFinalPlusAppUITests.swift in Sources */,
+				9BDB02122775BEB700505551 /* MyFinalPlusAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9B0A41732771E33000959CAB /* PBXTargetDependency */ = {
+		9BDB02032775BEB700505551 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9B0A415A2771E32F00959CAB /* Plus App */;
-			targetProxy = 9B0A41722771E33000959CAB /* PBXContainerItemProxy */;
+			target = 9BDB01EA2775BEB400505551 /* MyFinalPlusApp */;
+			targetProxy = 9BDB02022775BEB700505551 /* PBXContainerItemProxy */;
 		};
-		9B0A417D2771E33000959CAB /* PBXTargetDependency */ = {
+		9BDB020D2775BEB700505551 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9B0A415A2771E32F00959CAB /* Plus App */;
-			targetProxy = 9B0A417C2771E33000959CAB /* PBXContainerItemProxy */;
+			target = 9BDB01EA2775BEB400505551 /* MyFinalPlusApp */;
+			targetProxy = 9BDB020C2775BEB700505551 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9B0A41642771E32F00959CAB /* Main.storyboard */ = {
+		9BDB01F42775BEB400505551 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9B0A41652771E32F00959CAB /* Base */,
+				9BDB01F52775BEB400505551 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9B0A41692771E32F00959CAB /* LaunchScreen.storyboard */ = {
+		9BDB01F92775BEB700505551 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9B0A416A2771E32F00959CAB /* Base */,
+				9BDB01FA2775BEB700505551 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -330,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9B0A41832771E33000959CAB /* Debug */ = {
+		9BDB02132775BEB700505551 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		9B0A41842771E33000959CAB /* Release */ = {
+		9BDB02142775BEB700505551 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -446,7 +432,7 @@
 			};
 			name = Release;
 		};
-		9B0A41862771E33000959CAB /* Debug */ = {
+		9BDB02162775BEB700505551 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -454,7 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Plus App/Info.plist";
+				INFOPLIST_FILE = MyFinalPlusApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -465,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Plus-App";
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFinalPlusApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -473,7 +459,7 @@
 			};
 			name = Debug;
 		};
-		9B0A41872771E33000959CAB /* Release */ = {
+		9BDB02172775BEB700505551 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -481,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Plus App/Info.plist";
+				INFOPLIST_FILE = MyFinalPlusApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -492,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Plus-App";
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFinalPlusApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -500,7 +486,7 @@
 			};
 			name = Release;
 		};
-		9B0A41892771E33000959CAB /* Debug */ = {
+		9BDB02192775BEB700505551 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -515,16 +501,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Plus-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFinalPlusAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plus App.app/Plus App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFinalPlusApp.app/MyFinalPlusApp";
 			};
 			name = Debug;
 		};
-		9B0A418A2771E33000959CAB /* Release */ = {
+		9BDB021A2775BEB700505551 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -539,16 +525,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Plus-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFinalPlusAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plus App.app/Plus App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFinalPlusApp.app/MyFinalPlusApp";
 			};
 			name = Release;
 		};
-		9B0A418C2771E33000959CAB /* Debug */ = {
+		9BDB021C2775BEB700505551 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -561,16 +547,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Plus-AppUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFinalPlusAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Plus App";
+				TEST_TARGET_NAME = MyFinalPlusApp;
 			};
 			name = Debug;
 		};
-		9B0A418D2771E33000959CAB /* Release */ = {
+		9BDB021D2775BEB700505551 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -583,84 +569,55 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tuwaiq.ios.Plus-AppUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFinalPlusAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Plus App";
+				TEST_TARGET_NAME = MyFinalPlusApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B0A41562771E32F00959CAB /* Build configuration list for PBXProject "Plus App" */ = {
+		9BDB01E62775BEB400505551 /* Build configuration list for PBXProject "MyFinalPlusApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B0A41832771E33000959CAB /* Debug */,
-				9B0A41842771E33000959CAB /* Release */,
+				9BDB02132775BEB700505551 /* Debug */,
+				9BDB02142775BEB700505551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B0A41852771E33000959CAB /* Build configuration list for PBXNativeTarget "Plus App" */ = {
+		9BDB02152775BEB700505551 /* Build configuration list for PBXNativeTarget "MyFinalPlusApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B0A41862771E33000959CAB /* Debug */,
-				9B0A41872771E33000959CAB /* Release */,
+				9BDB02162775BEB700505551 /* Debug */,
+				9BDB02172775BEB700505551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B0A41882771E33000959CAB /* Build configuration list for PBXNativeTarget "Plus AppTests" */ = {
+		9BDB02182775BEB700505551 /* Build configuration list for PBXNativeTarget "MyFinalPlusAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B0A41892771E33000959CAB /* Debug */,
-				9B0A418A2771E33000959CAB /* Release */,
+				9BDB02192775BEB700505551 /* Debug */,
+				9BDB021A2775BEB700505551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B0A418B2771E33000959CAB /* Build configuration list for PBXNativeTarget "Plus AppUITests" */ = {
+		9BDB021B2775BEB700505551 /* Build configuration list for PBXNativeTarget "MyFinalPlusAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B0A418C2771E33000959CAB /* Debug */,
-				9B0A418D2771E33000959CAB /* Release */,
+				9BDB021C2775BEB700505551 /* Debug */,
+				9BDB021D2775BEB700505551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		9B0A418E2771FB0700959CAB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		9B0A418F2771FB0700959CAB /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B0A418E2771FB0700959CAB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		9B0A41912771FB0700959CAB /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B0A418E2771FB0700959CAB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		9B0A41932771FB0700959CAB /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B0A418E2771FB0700959CAB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 9B0A41532771E32F00959CAB /* Project object */;
+	rootObject = 9BDB01E32775BEB400505551 /* Project object */;
 }
