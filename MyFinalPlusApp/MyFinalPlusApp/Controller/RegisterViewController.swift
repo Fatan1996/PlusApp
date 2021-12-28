@@ -7,7 +7,6 @@
 
 import UIKit
 import Firebase
-
 class RegisterViewController: UIViewController {
     
 let imagePickerController = UIImagePickerController()
@@ -26,23 +25,25 @@ var activityIndicator = UIActivityIndicatorView()
     }
     
     @IBOutlet weak var nameTextField: UITextField!
-    
     @IBOutlet weak var emailTextField: UITextField!
-    
     @IBOutlet weak var passwordTextField: UITextField!
-    
     @IBOutlet weak var confirmPasswordTextField: UITextField!
+    @IBOutlet weak var userNameTextField: UITextField!
+    @IBOutlet weak var phoneNumberTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     imagePickerController.delegate = self
     }
+    
     @IBAction func handleRegister(_ sender: Any) {
     
         if let image = userImageView.image,
            let imageData = image.jpegData(compressionQuality: 0.75),
            let name = nameTextField.text,
+           let username = userNameTextField.text,
            let email = emailTextField.text,
+           let phoneNumber = phoneNumberTextField.text,
            let password = passwordTextField.text,
            let confirmPassword = confirmPasswordTextField.text,
            password == confirmPassword {
@@ -70,7 +71,9 @@ var activityIndicator = UIActivityIndicatorView()
                                     "id":authResult.user.uid,
                                     "name":name,
                                     "email":email,
-                                    "imageUrl":url.absoluteString
+                                    "imageUrl":url.absoluteString,
+                                    "userName":username,
+                                    "phoneNumber":phoneNumber,
                                 ]
                                 db.collection("users").document(authResult.user.uid).setData(userData) { error in
                                     if let error = error {
@@ -105,7 +108,7 @@ extension RegisterViewController: UIImagePickerControllerDelegate, UINavigationC
         let cameraAction = UIAlertAction(title: "Camera", style: .default) { Action in
             self.getImage(from: .camera)
         }
-        let galaryAction = UIAlertAction(title: "photo Album", style: .default) { Action in
+        let galaryAction = UIAlertAction(title: "Photo library", style: .default) { Action in
             self.getImage(from: .photoLibrary)
         }
         let dismissAction = UIAlertAction(title: "Cancle", style: .destructive) { Action in

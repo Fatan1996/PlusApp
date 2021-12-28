@@ -7,7 +7,6 @@
 
 import UIKit
 import Firebase
-
 class LoginViewController: UIViewController {
     var activityIndicator = UIActivityIndicatorView()
     @IBOutlet weak var emailTextField:

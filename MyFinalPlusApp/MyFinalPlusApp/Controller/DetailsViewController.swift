@@ -1,19 +1,21 @@
 //
-//  ViewController.swift
+//  DetailsViewController.swift
 //  MyFinalPlusApp
 //
-//  Created by Faten Abdullh salem on 20/05/1443 AH.
+//  Created by Faten Abdullh salem on 23/05/1443 AH.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
 
+    
 
 }
-
