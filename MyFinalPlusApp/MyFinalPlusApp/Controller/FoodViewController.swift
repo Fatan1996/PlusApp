@@ -9,8 +9,8 @@ import UIKit
 import Firebase
 
 class FoodViewController: UIViewController {
-    var selectedFood:Food?
-    var selectedFoodImage:UIImage?
+    var selectedFood:Post?
+    var selectedPostImage:UIImage?
     
     @IBOutlet weak var foodImageView: UIImageView! {
         didSet {
@@ -20,19 +20,27 @@ class FoodViewController: UIViewController {
         }
     }
     @IBOutlet weak var actionButton: UIButton!
-    
     @IBOutlet weak var foodPriceTextField: UITextField!
     @IBOutlet weak var foodTitleTextField: UITextField!
     @IBOutlet weak var foodDescriptionTextField: UITextField!
+    @IBOutlet weak var RestaurantNameTextField: UITextField!
+    @IBOutlet weak var DeliveryTimeTextField: UITextField!
+    @IBOutlet weak var DeliveryPriceTextField: UITextField!
+    
+    
     let activityIndicator = UIActivityIndicatorView()
     override func viewDidLoad() {
         super.viewDidLoad()
         if let selectedFood = selectedFood,
-        let selectedImage = selectedFoodImage{
+        let selectedPostImage = selectedPostImage{
+        DeliveryPriceTextField.text = selectedFood.price
+        DeliveryTimeTextField.text = selectedFood.DeliveryTime
+        RestaurantNameTextField.text = selectedFood.restaurantName
         foodPriceTextField.text = selectedFood.price
         foodTitleTextField.text = selectedFood.title
         foodDescriptionTextField.text = selectedFood.description
-        foodImageView.image = selectedImage
+        foodImageView.image = selectedPostImage
+            
         actionButton.setTitle("Update Food", for: .normal)
             let deleteBarButton = UIBarButtonItem(image: UIImage(systemName: "trash.fill"),style: .plain, target: self, action: #selector(handleDelete))
             self.navigationItem.rightBarButtonItem = deleteBarButton
@@ -74,6 +82,9 @@ class FoodViewController: UIViewController {
            let imageData = image.jpegData(compressionQuality: 0.75),
            let price = foodPriceTextField.text,
            let title = foodTitleTextField.text,
+           let restaurantName = RestaurantNameTextField.text,
+           let deliveryTime = DeliveryTimeTextField.text,
+           let deliveryPrice = DeliveryPriceTextField.text,
            let description = foodDescriptionTextField.text,
            let currentUser = Auth.auth().currentUser {
             Activity.showIndicator(parentView: self.view, childView: activityIndicator)
@@ -99,20 +110,26 @@ class FoodViewController: UIViewController {
                         if let selectedFood = self.selectedFood {
                             postData = [
                                 "userId":selectedFood.user.id,
-                                "price":price,
+                                "imageUrl":url.absoluteString,
+                                "restaurantName":restaurantName,
                                 "title":title,
                                 "description":description,
-                                "imageUrl":url.absoluteString,
+                                "price":price,
+                                "deliveryTime":deliveryTime,
+                                "deliveryPrice":deliveryPrice,
                                 "createdAt":selectedFood.createdAt ?? FieldValue.serverTimestamp(),
                                 "updatedAt":FieldValue.serverTimestamp()
                         ]
                         }else {
                             postData = [
                                 "userId":currentUser.uid,
-                                "price":price,
+                                "imageUrl":url.absoluteString,
+                                "restaurantName":restaurantName,
                                 "title":title,
                                 "description":description,
-                                "imageUrl":url.absoluteString,
+                                "price":price,
+                                "deliveryTime":deliveryTime,
+                                "deliveryPrice":deliveryPrice,
                                 "createdAt":FieldValue.serverTimestamp(),
                                 "updatedAt":FieldValue.serverTimestamp()
                             ]

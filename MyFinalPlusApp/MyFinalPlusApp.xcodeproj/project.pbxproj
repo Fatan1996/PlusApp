@@ -15,13 +15,13 @@
 		9B27137E2778A4E100015E13 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9B27137D2778A4E100015E13 /* FirebaseFirestore */; };
 		9B2713802778A4E100015E13 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9B27137F2778A4E100015E13 /* FirebaseStorage */; };
 		9B586A8A277A29FB005C40F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B586A89277A29FB005C40F3 /* User.swift */; };
-		9B586A8D277A2A9F005C40F3 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B586A8C277A2A9F005C40F3 /* Food.swift */; };
 		9B60B68A277B220B00F55062 /* ResturantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B60B689277B220B00F55062 /* ResturantViewController.swift */; };
 		9B63B6912775CA3E00A70626 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63B6902775CA3E00A70626 /* LandingViewController.swift */; };
 		9B63B6932775CA7600A70626 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63B6922775CA7600A70626 /* RegisterViewController.swift */; };
 		9B63B6952775CAEE00A70626 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63B6942775CAEE00A70626 /* LoginViewController.swift */; };
 		9B63B69B2775E39200A70626 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63B69A2775E39200A70626 /* ImageView.swift */; };
 		9B63B69D2775E3C300A70626 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63B69C2775E3C300A70626 /* Activity.swift */; };
+		9BCE503A277C5EEA00863ABD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE5039277C5EEA00863ABD /* Post.swift */; };
 		9BDB01EF2775BEB400505551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB01EE2775BEB400505551 /* AppDelegate.swift */; };
 		9BDB01F12775BEB400505551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB01F02775BEB400505551 /* SceneDelegate.swift */; };
 		9BDB01F62775BEB400505551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB01F42775BEB400505551 /* Main.storyboard */; };
@@ -55,13 +55,13 @@
 		9B1CBCB0277B2E1100C33089 /* DataTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTVCell.swift; sourceTree = "<group>"; };
 		9B2713782778A31500015E13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9B586A89277A29FB005C40F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		9B586A8C277A2A9F005C40F3 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		9B60B689277B220B00F55062 /* ResturantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResturantViewController.swift; sourceTree = "<group>"; };
 		9B63B6902775CA3E00A70626 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		9B63B6922775CA7600A70626 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		9B63B6942775CAEE00A70626 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9B63B69A2775E39200A70626 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		9B63B69C2775E3C300A70626 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		9BCE5039277C5EEA00863ABD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		9BDB01EB2775BEB400505551 /* MyFinalPlusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFinalPlusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDB01EE2775BEB400505551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BDB01F02775BEB400505551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 		9B586A8B277A2A08005C40F3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9B586A8C277A2A9F005C40F3 /* Food.swift */,
+				9BCE5039277C5EEA00863ABD /* Post.swift */,
 				9B586A89277A29FB005C40F3 /* User.swift */,
 				9B1CBCB0277B2E1100C33089 /* DataTVCell.swift */,
 			);
@@ -342,13 +342,13 @@
 				9B63B6952775CAEE00A70626 /* LoginViewController.swift in Sources */,
 				9B63B6932775CA7600A70626 /* RegisterViewController.swift in Sources */,
 				9B015BA4277A467E00F989E6 /* FoodViewController.swift in Sources */,
+				9BCE503A277C5EEA00863ABD /* Post.swift in Sources */,
 				9BDB01EF2775BEB400505551 /* AppDelegate.swift in Sources */,
 				9B63B6912775CA3E00A70626 /* LandingViewController.swift in Sources */,
 				9B586A8A277A29FB005C40F3 /* User.swift in Sources */,
 				9B60B68A277B220B00F55062 /* ResturantViewController.swift in Sources */,
 				9B1CBCB1277B2E1100C33089 /* DataTVCell.swift in Sources */,
 				9B63B69D2775E3C300A70626 /* Activity.swift in Sources */,
-				9B586A8D277A2A9F005C40F3 /* Food.swift in Sources */,
 				9BDB01F12775BEB400505551 /* SceneDelegate.swift in Sources */,
 				9B015BA6277A4B3000F989E6 /* DetailsViewController.swift in Sources */,
 			);

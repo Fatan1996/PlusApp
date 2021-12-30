@@ -8,11 +8,25 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
-
+    var selectedFood:Post?
+    var selectedPostImage:UIImage?
+    
+    @IBOutlet weak var postImageView: UIImageView!
+    @IBOutlet weak var postTitleLabel: UILabel!
+    @IBOutlet weak var postDescriptionLabel: UILabel!
+    @IBOutlet weak var postPriceLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if let selectedFood = selectedFood,
+           let selectedImage = selectedPostImage{
+            postImageView.image = selectedImage
+            postTitleLabel.text = selectedFood.title
+            postDescriptionLabel.text = selectedFood.description
+            postPriceLabel.text = selectedFood.price
+            
+        }
+    
     }
     
 

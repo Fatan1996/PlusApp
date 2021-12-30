@@ -28,7 +28,6 @@ var activityIndicator = UIActivityIndicatorView()
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var confirmPasswordTextField: UITextField!
-    @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var phoneNumberTextField: UITextField!
     
     override func viewDidLoad() {
@@ -41,7 +40,6 @@ var activityIndicator = UIActivityIndicatorView()
         if let image = userImageView.image,
            let imageData = image.jpegData(compressionQuality: 0.75),
            let name = nameTextField.text,
-           let username = userNameTextField.text,
            let email = emailTextField.text,
            let phoneNumber = phoneNumberTextField.text,
            let password = passwordTextField.text,
@@ -72,7 +70,6 @@ var activityIndicator = UIActivityIndicatorView()
                                     "name":name,
                                     "email":email,
                                     "imageUrl":url.absoluteString,
-                                    "userName":username,
                                     "phoneNumber":phoneNumber,
                                 ]
                                 db.collection("users").document(authResult.user.uid).setData(userData) { error in

@@ -15,11 +15,12 @@ struct User {
     var imageUrl = ""
     
     init(dict:[String:Any]) {
+        print("USER",dict)
         if let id = dict["id"] as? String,
            let name = dict["name"] as? String,
            let email = dict["email"] as? String,
-           let phoneNumber = ["phoneNumber"] as? String,
-           let imageUrl = ["imageUrl"] as? String {
+           let phoneNumber = dict["phoneNumber"] as? String,
+           let imageUrl = dict["imageUrl"] as? String {
             self.id = id
             self.name = name
             self.email = email
