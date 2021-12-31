@@ -34,9 +34,7 @@ var activityIndicator = UIActivityIndicatorView()
         super.viewDidLoad()
     imagePickerController.delegate = self
     }
-    
     @IBAction func handleRegister(_ sender: Any) {
-    
         if let image = userImageView.image,
            let imageData = image.jpegData(compressionQuality: 0.75),
            let name = nameTextField.text,
@@ -93,7 +91,35 @@ var activityIndicator = UIActivityIndicatorView()
     }
     
     
+    @IBAction func changePasswordVisibility(_ sender: AnyObject) {
+    passwordTextField.isSecureTextEntry.toggle()
+        if passwordTextField.isSecureTextEntry {
+            if let image = UIImage(systemName: "eye.fill") {
+                sender.setImage(image, for: .normal)
+            }
+        } else {
+            if let image = UIImage(systemName: "eye.slash.fill") {
+                sender.setImage(image, for: .normal)
+            }
+        }
+    }
+    @IBAction func changeconfirmPassword(_ sender: AnyObject) {
+        confirmPasswordTextField.isSecureTextEntry.toggle()
+            if confirmPasswordTextField.isSecureTextEntry {
+                if let image = UIImage(systemName: "eye.fill") {
+                    sender.setImage(image, for: .normal)
+                }
+            } else {
+                if let image = UIImage(systemName: "eye.slash.fill") {
+                    sender.setImage(image, for: .normal)
+                }
+            }
+        }
+
 }
+    
+    
+
 extension RegisterViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     @objc func selectImage() {

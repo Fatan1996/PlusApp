@@ -108,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				9BDB01F42775BEB400505551 /* Main.storyboard */,
+				9B1CBCB0277B2E1100C33089 /* DataTVCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -117,7 +118,6 @@
 			children = (
 				9BCE5039277C5EEA00863ABD /* Post.swift */,
 				9B586A89277A29FB005C40F3 /* User.swift */,
-				9B1CBCB0277B2E1100C33089 /* DataTVCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
