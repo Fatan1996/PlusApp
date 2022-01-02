@@ -15,6 +15,8 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var postTitleLabel: UILabel!
     @IBOutlet weak var postDescriptionLabel: UILabel!
     @IBOutlet weak var postPriceLabel: UILabel!
+    @IBOutlet weak var DeliveryTimeLabel: UILabel!
+    @IBOutlet weak var DeliveryPriceLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +26,8 @@ class DetailsViewController: UIViewController {
             postTitleLabel.text = selectedFood.title
             postDescriptionLabel.text = selectedFood.description
             postPriceLabel.text = selectedFood.price
+            DeliveryTimeLabel.text = selectedFood.DeliveryTime
+            DeliveryPriceLabel.text = selectedFood.DeliveryPrice
             
         }
     
