@@ -15,28 +15,45 @@
 "Password" = "Password";
 "PasswordComfirm" = "PasswordComfirm";
 "PhoneNumber" = "PhoneNumber";
-"Register" = "Register";
 
-"Email" = "Email";
-"Password" = "Password";
-"Login" = "Login";
+//"Register" = "Register";
+//"Email" = "Email";
+//"Password" = "Password";
+//"Login" = "Login";
 
 "RestaurantName" = "RestaurantName";
-"MealType" = "MealType";
-"Description" = "Description";
-"Price" = "Price";
-"DeliveryTime" = "DeliveryTime";
-"DeliveryPrice" = "DeliveryPrice";
 "Evaluation" = "Evaluation";
-"Logout" = "Logout";
+
+
+//"MealType" = "MealType";
+//"Description" = "Description";
+//"Price" = "Price";
+//"DeliveryTime" = "DeliveryTime";
+//"DeliveryPrice" = "DeliveryPrice";
 
 
 
-"RestaurantName" = "RestaurantName";
-"MealType" = "MealType";
+"RestaurantName" = "Restaurant Name";
+"MealType" = "Meal Type";
 "Description" = "Description";
 "Price" = "Price";
-"DeliveryTime" = "DeliveryTime";
-"DeliveryPrice" = "DeliveryPrice";
+"DeliveryTime" = "Delivery Time";
+"DeliveryPrice" = "Delivery Price";
 "Update Food" = "Update Food" ;
 "Add Food" = "Add Food";
+"SR" = "SR";
+
+
+
+//"MealType" = "Meal Type";
+//"Description" = "Description";
+//"Price" = "Price";
+//"DeliveryTime" = "Delivery Time";
+//"DeliveryPrice" = "Delivery Price";
+
+
+"Paying off" = "Paying off";
+"Creditcard" = "Creditcard";
+"Uponreceipt" = "Uponreceipt";
+"Communicate with the delegate" = "Communicate with the delegate";
+"Buy" = "Buy";

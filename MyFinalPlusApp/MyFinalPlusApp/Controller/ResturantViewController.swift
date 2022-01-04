@@ -115,15 +115,6 @@ class ResturantViewController: UIViewController {
         }
      
     }
-    
-    @IBOutlet weak var LogoutButtonItem: UIBarButtonItem!{
-        didSet {
-            LogoutButtonItem
-        }
-    }
-    
-    
-    
 }
 extension ResturantViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

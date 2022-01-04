@@ -16,12 +16,12 @@
 "Password" = "كلمة المرور";
 "PasswordComfirm" = "تأكيد كلمة المرور";
 "PhoneNumber" = "رقم الجوال";
-"Register" = "تسجيل جديد";
+//"Register" = "تسجيل جديد";
 
 
-"Email" = "الإيميل";
-"Password" = "كلمة المرور";
-"Login" = "تسجيل الدخول";
+//"Email" = "الإيميل";
+//"Password" = "كلمة المرور";
+//"Login" = "تسجيل الدخول";
 
 "RestaurantName" = "اسم المطعم";
 "MealType" = "نوع الوجبة";
@@ -30,14 +30,29 @@
 "DeliveryTime" = "وقت التوصيل";
 "DeliveryPrice" = "سعر التوصيل";
 "Evaluation" = "التقييم";
-"Logout" = "تسجيل الخروج";
 
 
-"RestaurantName" = "اسم المطعم";
-"MealType" = "نوع الوجبة";
-"Description" = "الوصف";
-"Price" = "السعر";
-"DeliveryTime" = "وقت التوصيل";
-"DeliveryPrice" = "سعر التوصيل";
+
+//"RestaurantName" = "اسم المطعم";
+//"MealType" = "نوع الوجبة";
+//"Description" = "الوصف";
+//"Price" = "السعر";
+//"DeliveryTime" = "وقت التوصيل";
+//"DeliveryPrice" = "سعر التوصيل";
 "Update Food"  = "تعديل";
 "Add Food" = "إضافة";
+"SR" = "س.ر";
+
+
+//"MealType" = "نوع الوجبة";
+//"Description" = "الوصف";
+//"Price" = "السعر";
+//"DeliveryTime" = "وقت التوصيل";
+//"DeliveryPrice" = "سعر التوصيل";
+
+
+"Paying off" = "الدفع";
+"Creditcard" = "بطاقة إئتمان";
+"Uponreceipt" = "عند الاستلام";
+"Communicate with the delegate" = "التواصل مع المندوب";
+"Buy" = "شراء";

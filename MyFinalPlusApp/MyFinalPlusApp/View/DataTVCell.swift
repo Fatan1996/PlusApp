@@ -9,8 +9,14 @@ import UIKit
 import Firebase
 class DataTVCell: UITableViewCell {
 @IBOutlet weak var restaurantNameLabel: UILabel!
+    
 @IBOutlet weak var DeliveryTimeLabel: UILabel!
-@IBOutlet weak var DeliveryPriceLabel: UILabel!
+    
+@IBOutlet weak var DeliveryPriceLabel: UILabel!{
+        didSet {
+        DeliveryPriceLabel.text = "SR".localized
+        }
+    }
 @IBOutlet weak var TitleLabel: UILabel!
 @IBOutlet weak var DescriptionLabel: UILabel!
 @IBOutlet weak var PriceLabel: UILabel!
@@ -18,22 +24,18 @@ class DataTVCell: UITableViewCell {
     
     //commint
     
-    @IBOutlet weak var ResLabel: UILabel!{
+@IBOutlet weak var ResLabel: UILabel!{
         didSet {
             ResLabel.text = "RestaurantName".localized
         }
-    }
-    
-    
-    
+}
 @IBOutlet weak var MealTypeLabel: UILabel!{
         didSet {
             MealTypeLabel.text = "MealType".localized
             
         }
     }
-    
-    @IBOutlet weak var DescriptioonLabel: UILabel!{
+@IBOutlet weak var DescriptioonLabel: UILabel!{
         didSet {
         DescriptioonLabel.text = "Description".localized
         }
