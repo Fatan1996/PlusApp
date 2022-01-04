@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  MyFinalPlusApp
+
+  Created by Faten Abdullh salem on 29/05/1443 AH.
+  
+*/
+
+
+"WelcomeToMyAPP" = "مرحبا بكم في تطبيقي";
+"Register" = "تسجيل جديد";
+"Login" = "تسجيل الدخول";
+
+"Name" = "الاسم";
+"Email" = "الإيميل";
+"Password" = "كلمة المرور";
+"PasswordComfirm" = "تأكيد كلمة المرور";
+"PhoneNumber" = "رقم الجوال";
+"Register" = "تسجيل جديد";
+
+
+"Email" = "الإيميل";
+"Password" = "كلمة المرور";
+"Login" = "تسجيل الدخول";
+
+"RestaurantName" = "اسم المطعم";
+"MealType" = "نوع الوجبة";
+"Description" = "الوصف";
+"Price" = "السعر";
+"DeliveryTime" = "وقت التوصيل";
+"DeliveryPrice" = "سعر التوصيل";
+"Evaluation" = "التقييم";
+"Logout" = "تسجيل الخروج";
+
+
+"RestaurantName" = "اسم المطعم";
+"MealType" = "نوع الوجبة";
+"Description" = "الوصف";
+"Price" = "السعر";
+"DeliveryTime" = "وقت التوصيل";
+"DeliveryPrice" = "سعر التوصيل";
+"Update Food"  = "تعديل";
+"Add Food" = "إضافة";

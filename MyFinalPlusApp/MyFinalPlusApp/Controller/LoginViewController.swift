@@ -33,7 +33,25 @@ class LoginViewController: UIViewController {
             }
         }
     }
+    @IBOutlet weak var EmailLabel: UILabel!{
+        didSet {
+            EmailLabel.text = "Email".localized
+        }
+        
+    }
 
+    
+    @IBOutlet weak var PasswordLabel: UILabel!{
+        didSet {
+            PasswordLabel.text = "Password".localized
+        }
+    }
+    @IBOutlet weak var LoginButton: UIButton!{
+        didSet {
+            LoginButton.setTitle("Login".localized, for: .normal)
+        }
+    }
+    
     
 }
 

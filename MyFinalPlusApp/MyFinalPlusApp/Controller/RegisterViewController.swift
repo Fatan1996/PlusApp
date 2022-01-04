@@ -90,6 +90,38 @@ var activityIndicator = UIActivityIndicatorView()
         
     }
     
+    @IBOutlet weak var NameLabel: UILabel! {
+        didSet {
+        NameLabel.text = "Name".localized
+        }
+    }
+    @IBOutlet weak var EmailLabel: UILabel! {
+        didSet {
+            EmailLabel.text = "Email".localized
+        }
+    }
+    @IBOutlet weak var PasswordLabel: UILabel! {
+        didSet {
+        PasswordLabel.text = "Password".localized
+        }
+    }
+    @IBOutlet weak var PasswordComfirmLabel:
+    UILabel! {
+        didSet {
+        PasswordComfirmLabel.text = "PasswordComfirm".localized
+        }
+    }
+    @IBOutlet weak var PhoneNumberLabel: UILabel! {
+        didSet {
+            PhoneNumberLabel.text = "PhoneNumber".localized
+        }
+    }
+    
+    @IBOutlet weak var RegisterButton: UIButton!{
+        didSet {
+            RegisterButton.setTitle("Register".localized, for: .normal)
+        }
+    }
     
     @IBAction func changePasswordVisibility(_ sender: AnyObject) {
     passwordTextField.isSecureTextEntry.toggle()
@@ -103,8 +135,10 @@ var activityIndicator = UIActivityIndicatorView()
             }
         }
     }
+    
     @IBAction func changeconfirmPassword(_ sender: AnyObject) {
-        confirmPasswordTextField.isSecureTextEntry.toggle()
+    
+    confirmPasswordTextField.isSecureTextEntry.toggle()
             if confirmPasswordTextField.isSecureTextEntry {
                 if let image = UIImage(systemName: "eye.fill") {
                     sender.setImage(image, for: .normal)

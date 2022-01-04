@@ -1,0 +1,180 @@
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "1MA-6z-DYd"; */
+"1MA-6z-DYd.text" = "Password:";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "3fU-BE-8WA"; */
+"3fU-BE-8WA.text" = "Price";
+
+/* Class = "UILabel"; text = "Meal Type"; ObjectID = "4eY-r2-5nl"; */
+"4eY-r2-5nl.text" = "Meal Type";
+
+/* Class = "UILabel"; text = "Delivery time"; ObjectID = "4mb-Fm-Occ"; */
+"4mb-Fm-Occ.text" = "Delivery time";
+
+/* Class = "UILabel"; text = "Desciption"; ObjectID = "5wz-ef-pOG"; */
+"5wz-ef-pOG.text" = "Desciption";
+
+/* Class = "UILabel"; text = "RestaurantName"; ObjectID = "6uJ-iJ-uDa"; */
+"6uJ-iJ-uDa.text" = "RestaurantName";
+
+/* Class = "UILabel"; text = "Creditcard"; ObjectID = "76X-p8-emf"; */
+"76X-p8-emf.text" = "Creditcard";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "8oL-pt-L2f"; */
+"8oL-pt-L2f.text" = "Password";
+
+/* Class = "UILabel"; text = "Paying off:"; ObjectID = "A2V-Rh-Uqb"; */
+"A2V-Rh-Uqb.text" = "Paying off:";
+
+/* Class = "UILabel"; text = "Communicate with the delegate"; ObjectID = "B7R-eJ-07g"; */
+"B7R-eJ-07g.text" = "Communicate with the delegate";
+
+/* Class = "UILabel"; text = "Price "; ObjectID = "D0b-q3-ar1"; */
+"D0b-q3-ar1.text" = "Price ";
+
+/* Class = "UILabel"; text = "Delivery Price"; ObjectID = "DxY-Ja-YXU"; */
+"DxY-Ja-YXU.text" = "Delivery Price";
+
+/* Class = "UILabel"; text = "15.0 SR"; ObjectID = "EnH-vT-x8W"; */
+"EnH-vT-x8W.text" = "15.0 SR";
+
+/* Class = "UITextField"; placeholder = "please enter passwordComfirm"; ObjectID = "Fj7-0b-qME"; */
+"Fj7-0b-qME.placeholder" = "please enter passwordComfirm";
+
+/* Class = "UILabel"; text = "PasswordComfirm:"; ObjectID = "Foi-U7-5la"; */
+"Foi-U7-5la.text" = "PasswordComfirm:";
+
+/* Class = "UILabel"; text = "Pizza hut"; ObjectID = "HPk-xr-pO4"; */
+"HPk-xr-pO4.text" = "Pizza hut";
+
+/* Class = "UITextField"; placeholder = "please enter Password"; ObjectID = "HrB-IK-s27"; */
+"HrB-IK-s27.placeholder" = "please enter Password";
+
+/* Class = "UILabel"; text = " 40-50 "; ObjectID = "Imp-hy-rzh"; */
+"Imp-hy-rzh.text" = " 40-50 ";
+
+/* Class = "UILabel"; text = " 40-50 "; ObjectID = "NwD-iI-vwo"; */
+"NwD-iI-vwo.text" = " 40-50 ";
+
+/* Class = "UITextField"; placeholder = "please enter name"; ObjectID = "O0Q-m6-nu8"; */
+"O0Q-m6-nu8.placeholder" = "please enter name";
+
+/* Class = "UITextField"; placeholder = "please enter Phone Number"; ObjectID = "Pum-cl-oSS"; */
+"Pum-cl-oSS.placeholder" = "please enter Phone Number";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "ROK-iZ-ZIO"; */
+"ROK-iZ-ZIO.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ROK-iZ-ZIO"; */
+"ROK-iZ-ZIO.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "DeliveryTime:"; ObjectID = "RWw-nL-6At"; */
+"RWw-nL-6At.text" = "DeliveryTime:";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "SGP-3Z-Abz"; */
+"SGP-3Z-Abz.configuration.title" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SGP-3Z-Abz"; */
+"SGP-3Z-Abz.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Welcome To My APP"; ObjectID = "SeT-Yz-GCK"; */
+"SeT-Yz-GCK.text" = "Welcome To My APP";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SxL-Fj-Zxk"; */
+"SxL-Fj-Zxk.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Uef-d6-jlJ"; */
+"Uef-d6-jlJ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "Uej-K5-Oba"; */
+"Uej-K5-Oba.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Live Tracking"; ObjectID = "V3O-Yf-1hx"; */
+"V3O-Yf-1hx.text" = "Live Tracking";
+
+/* Class = "UILabel"; text = "DeliveryTime:"; ObjectID = "W2D-qO-N35"; */
+"W2D-qO-N35.text" = "DeliveryTime:";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "YE5-Sq-x1o"; */
+"YE5-Sq-x1o.text" = "Name:";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "Yyi-nl-5em"; */
+"Yyi-nl-5em.text" = "Email:";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "Z9W-8I-clO"; */
+"Z9W-8I-clO.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Z9W-8I-clO"; */
+"Z9W-8I-clO.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "please enter password"; ObjectID = "Znj-PZ-5bW"; */
+"Znj-PZ-5bW.placeholder" = "please enter password";
+
+/* Class = "UILabel"; text = "10 SR"; ObjectID = "aMU-x0-f53"; */
+"aMU-x0-f53.text" = "10 SR";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "bEi-Sd-HKk"; */
+"bEi-Sd-HKk.text" = "Description";
+
+/* Class = "UIBarButtonItem"; title = "logout"; ObjectID = "bnO-lE-rfm"; */
+"bnO-lE-rfm.title" = "logout";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "byD-0h-fPi"; */
+"byD-0h-fPi.text" = "Title";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "dh6-v7-Znv"; */
+"dh6-v7-Znv.text" = "Description";
+
+/* Class = "UILabel"; text = "Uponreceipt"; ObjectID = "hFz-MT-UZq"; */
+"hFz-MT-UZq.text" = "Uponreceipt";
+
+/* Class = "UISegmentedControl"; j9M-Xj-f1i.segmentTitles[0] = "First"; ObjectID = "j9M-Xj-f1i"; */
+"j9M-Xj-f1i.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; j9M-Xj-f1i.segmentTitles[1] = "Second"; ObjectID = "j9M-Xj-f1i"; */
+"j9M-Xj-f1i.segmentTitles[1]" = "Second";
+
+/* Class = "UILabel"; text = " 10 SR"; ObjectID = "jNy-Qf-Wsg"; */
+"jNy-Qf-Wsg.text" = " 10 SR";
+
+/* Class = "UILabel"; text = "3.8"; ObjectID = "myt-ZN-hBG"; */
+"myt-ZN-hBG.text" = "3.8";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "naP-Z9-aau"; */
+"naP-Z9-aau.text" = "Title";
+
+/* Class = "UIButton"; configuration.title = "Register"; ObjectID = "oUV-2i-riB"; */
+"oUV-2i-riB.configuration.title" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oUV-2i-riB"; */
+"oUV-2i-riB.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Buy"; ObjectID = "rWc-2w-6em"; */
+"rWc-2w-6em.configuration.title" = "Buy";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rWc-2w-6em"; */
+"rWc-2w-6em.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Delivery: "; ObjectID = "uJE-KE-XWt"; */
+"uJE-KE-XWt.text" = "Delivery: ";
+
+/* Class = "UIButton"; configuration.title = "Add"; ObjectID = "uOh-hT-xMr"; */
+"uOh-hT-xMr.configuration.title" = "Add";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uOh-hT-xMr"; */
+"uOh-hT-xMr.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "please enter email"; ObjectID = "wCV-ZD-vTr"; */
+"wCV-ZD-vTr.placeholder" = "please enter email";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "wHv-iM-Q0l"; */
+"wHv-iM-Q0l.text" = "Price";
+
+/* Class = "UILabel"; text = "Delivery:"; ObjectID = "wJK-ky-pM0"; */
+"wJK-ky-pM0.text" = "Delivery:";
+
+/* Class = "UITextField"; placeholder = "please enter email"; ObjectID = "xgc-Vh-kmy"; */
+"xgc-Vh-kmy.placeholder" = "please enter email";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "zc7-NV-7at"; */
+"zc7-NV-7at.text" = "Email:";

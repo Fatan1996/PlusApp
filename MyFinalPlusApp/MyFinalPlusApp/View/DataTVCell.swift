@@ -15,6 +15,55 @@ class DataTVCell: UITableViewCell {
 @IBOutlet weak var DescriptionLabel: UILabel!
 @IBOutlet weak var PriceLabel: UILabel!
 @IBOutlet weak var MealImageView: UIImageView!
+    
+    //commint
+    
+    @IBOutlet weak var ResLabel: UILabel!{
+        didSet {
+            ResLabel.text = "RestaurantName".localized
+        }
+    }
+    
+    
+    
+@IBOutlet weak var MealTypeLabel: UILabel!{
+        didSet {
+            MealTypeLabel.text = "MealType".localized
+            
+        }
+    }
+    
+    @IBOutlet weak var DescriptioonLabel: UILabel!{
+        didSet {
+        DescriptioonLabel.text = "Description".localized
+        }
+    }
+    
+    @IBOutlet weak var PriceMealLabel: UILabel!{
+        didSet {
+            PriceMealLabel.text = "Price".localized
+        }
+    }
+    
+    @IBOutlet weak var DeliveryTLabel: UILabel!{
+        didSet {
+        DeliveryTLabel.text = "DeliveryTime".localized
+        }
+    }
+    
+    @IBOutlet weak var DeliveryPLabel: UILabel!{
+        didSet {
+            DeliveryPLabel.text = "DeliveryPrice".localized
+        }
+    }
+    
+    @IBOutlet weak var EvaluationLabel: UILabel!{
+        didSet {
+            EvaluationLabel.text = "Evaluation".localized
+        }
+    }
+    
+    
 
 
 

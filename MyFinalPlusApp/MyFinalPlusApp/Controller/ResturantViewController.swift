@@ -115,6 +115,15 @@ class ResturantViewController: UIViewController {
         }
      
     }
+    
+    @IBOutlet weak var LogoutButtonItem: UIBarButtonItem!{
+        didSet {
+            LogoutButtonItem
+        }
+    }
+    
+    
+    
 }
 extension ResturantViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -129,7 +138,7 @@ extension ResturantViewController: UITableViewDataSource {
 }
 extension ResturantViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 300
+        return 400
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath) as! DataTVCell

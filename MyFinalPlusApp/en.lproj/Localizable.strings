@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  MyFinalPlusApp
+
+  Created by Faten Abdullh salem on 29/05/1443 AH.
+  
+*/
+
+"WelcomeToMyAPP" = "Welcom To My APP";
+"Register" = "Register";
+"Login" = "Login";
+
+"Name" = "Name";
+"Email" = "Email";
+"Password" = "Password";
+"PasswordComfirm" = "PasswordComfirm";
+"PhoneNumber" = "PhoneNumber";
+"Register" = "Register";
+
+"Email" = "Email";
+"Password" = "Password";
+"Login" = "Login";
+
+"RestaurantName" = "RestaurantName";
+"MealType" = "MealType";
+"Description" = "Description";
+"Price" = "Price";
+"DeliveryTime" = "DeliveryTime";
+"DeliveryPrice" = "DeliveryPrice";
+"Evaluation" = "Evaluation";
+"Logout" = "Logout";
+
+
+
+"RestaurantName" = "RestaurantName";
+"MealType" = "MealType";
+"Description" = "Description";
+"Price" = "Price";
+"DeliveryTime" = "DeliveryTime";
+"DeliveryPrice" = "DeliveryPrice";
+"Update Food" = "Update Food" ;
+"Add Food" = "Add Food";

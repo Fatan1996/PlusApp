@@ -19,6 +19,7 @@ class FoodViewController: UIViewController {
         foodImageView.addGestureRecognizer(tapGesture)
         }
     }
+    
     @IBOutlet weak var actionButton: UIButton!
     @IBOutlet weak var foodPriceTextField: UITextField!
     @IBOutlet weak var foodTitleTextField: UITextField!
@@ -26,7 +27,6 @@ class FoodViewController: UIViewController {
     @IBOutlet weak var RestaurantNameTextField: UITextField!
     @IBOutlet weak var DeliveryTimeTextField: UITextField!
     @IBOutlet weak var DeliveryPriceTextField: UITextField!
-    
     
     let activityIndicator = UIActivityIndicatorView()
     override func viewDidLoad() {
@@ -41,11 +41,11 @@ class FoodViewController: UIViewController {
         foodDescriptionTextField.text = selectedFood.description
         foodImageView.image = selectedPostImage
             
-        actionButton.setTitle("Update Food", for: .normal)
+            actionButton.setTitle("Update Food".localized, for: .normal)
             let deleteBarButton = UIBarButtonItem(image: UIImage(systemName: "trash.fill"),style: .plain, target: self, action: #selector(handleDelete))
             self.navigationItem.rightBarButtonItem = deleteBarButton
         }else {
-            actionButton.setTitle("Add Food", for: .normal)
+            actionButton.setTitle("Add Food".localized, for: .normal)
             self.navigationItem.rightBarButtonItem = nil
             
         }
@@ -145,7 +145,50 @@ class FoodViewController: UIViewController {
                 }
             }
         }
+   }
+    
+    
+    
+    @IBOutlet weak var RestaurantNLabel: UILabel!{
+        didSet {
+            RestaurantNLabel.text = "RestaurantName".localized
+        }
     }
+    @IBOutlet weak var titleLabel: UILabel!{
+        didSet {
+            titleLabel.text = "MealType".localized
+        }
+    }
+    @IBOutlet weak var DescriptionLabel: UILabel!{
+        didSet {
+            DescriptionLabel.text = "Description".localized
+        }
+    }
+    @IBOutlet weak var PriceLabel: UILabel!{
+        didSet {
+            PriceLabel.text = "Price".localized
+        }
+    }
+    @IBOutlet weak var DeliveryTTLabel: UILabel!{
+        didSet {
+            DeliveryTTLabel.text = "DeliveryTime".localized
+        }
+    }
+    @IBOutlet weak var DeliveryPPLabel: UILabel!{
+        didSet {
+            DeliveryPPLabel.text = "DeliveryPrice".localized
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 extension FoodViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
