@@ -20,13 +20,14 @@ class LandingViewController: UIViewController {
 }
 @IBOutlet weak var LoginButton: UIButton!{
     didSet {
-        LoginButton.setTitle("Login".localized, for: .normal)
+        LoginButton.setTitle("Sign in".localized, for: .normal)
     }
 }
     
-@IBOutlet weak var languageSegmentControl: UISegmentedControl!
-    {
-        didSet {
+
+    @IBOutlet weak var languageSegmentControl: UISegmentedControl!{
+       didSet {
+
             if let lang = UserDefaults.standard.string(forKey: "currentLanguage") {
                 switch lang {
                 case "ar":
@@ -58,18 +59,18 @@ override func viewDidLoad() {
         super.viewDidLoad()
 
 }
-@IBAction func languageChanged(_ sender: UISegmentedControl) {
-    if let lang = (sender as AnyObject).titleForSegment(at:(sender as AnyObject).selectedSegmentIndex)?.lowercased() {
-        UserDefaults.standard.set(lang, forKey: "currentLanguage")
-        Bundle.setLanguage(lang)
-        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-           let sceneDelegate = windowScene.delegate as? SceneDelegate {
-            sceneDelegate.window?.rootViewController = storyboard.instantiateInitialViewController()
+    @IBAction func languageChanged(_ sender: UISegmentedControl) {
+        if let lang = sender.titleForSegment(at:sender.selectedSegmentIndex)?.lowercased() {
+            UserDefaults.standard.set(lang, forKey: "currentLanguage")
+            Bundle.setLanguage(lang)
+            let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+               let sceneDelegate = windowScene.delegate as? SceneDelegate {
+                sceneDelegate.window?.rootViewController = storyboard.instantiateInitialViewController()
+                print(lang)
+            }
         }
-    }
-}
-}
+    }}
 extension String {
 var localized: String {
     return NSLocalizedString(self, tableName: "Localizable", bundle: .main, value: self, comment: self)
