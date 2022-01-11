@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "quelles-sont-les-5-choses-les-plus-sales-dans-un-restaurant.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "quelles-sont-les-5-choses-les-plus-sales-dans-un-restaurant-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "quelles-sont-les-5-choses-les-plus-sales-dans-un-restaurant-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

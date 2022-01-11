@@ -14,8 +14,8 @@ var activityIndicator = UIActivityIndicatorView()
     
     @IBOutlet weak var userImageView: UIImageView! {
         didSet {
-    userImageView.layer.borderColor = UIColor.systemGreen.cgColor
-    userImageView.layer.borderWidth = 3.0
+//    userImageView.layer.borderColor = UIColor.systemGreen.cgColor
+//    userImageView.layer.borderWidth = 3.0
       userImageView.layer.cornerRadius = userImageView.bounds.height / 2
       userImageView.layer.masksToBounds = true
       userImageView.isUserInteractionEnabled = true
@@ -46,6 +46,11 @@ var activityIndicator = UIActivityIndicatorView()
             Activity.showIndicator(parentView: self.view, childView: activityIndicator)
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                 if let error = error {
+        
+                                       Alert.showAlert(strTitle: "Error", strMessage: error.localizedDescription, viewController: self)
+                                    Activity.removeIndicator(parentView: self.view, childView: self.activityIndicator)
+                                      
+                                   
                     print("Registration Auth Error",error.localizedDescription)
                 }
                 if let authResult = authResult {
@@ -54,6 +59,11 @@ var activityIndicator = UIActivityIndicatorView()
                     uploadMeta.contentType = "image/jpeg"
                     storageRef.putData(imageData, metadata: uploadMeta) { storageMeta, error in
                         if let error = error {
+                         
+                                               Alert.showAlert(strTitle: "Error", strMessage: error.localizedDescription, viewController: self)
+                                            Activity.removeIndicator(parentView: self.view, childView: self.activityIndicator)
+                                          
+                                           
                             print("Registration Storage Error",error.localizedDescription)
                         }
                         storageRef.downloadURL { url, error in

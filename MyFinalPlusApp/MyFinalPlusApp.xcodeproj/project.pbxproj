@@ -23,6 +23,7 @@
 		9B63B69D2775E3C300A70626 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63B69C2775E3C300A70626 /* Activity.swift */; };
 		9B7537A72781B9C300B86E27 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B7537A92781B9C300B86E27 /* Localizable.strings */; };
 		9B7537AC2781D80E00B86E27 /* BundleExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7537AB2781D80E00B86E27 /* BundleExtention.swift */; };
+		9B863A6D278C3EBD003E8288 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B863A6C278C3EBD003E8288 /* Alert.swift */; };
 		9BCE503A277C5EEA00863ABD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE5039277C5EEA00863ABD /* Post.swift */; };
 		9BDB01EF2775BEB400505551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB01EE2775BEB400505551 /* AppDelegate.swift */; };
 		9BDB01F12775BEB400505551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB01F02775BEB400505551 /* SceneDelegate.swift */; };
@@ -68,6 +69,7 @@
 		9B7537A82781B9C300B86E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9B7537AA2781B9C900B86E27 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9B7537AB2781D80E00B86E27 /* BundleExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtention.swift; sourceTree = "<group>"; };
+		9B863A6C278C3EBD003E8288 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		9BCE5039277C5EEA00863ABD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		9BDB01EB2775BEB400505551 /* MyFinalPlusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFinalPlusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDB01EE2775BEB400505551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				9BCE5039277C5EEA00863ABD /* Post.swift */,
 				9B586A89277A29FB005C40F3 /* User.swift */,
+				9B863A6C278C3EBD003E8288 /* Alert.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				9B63B69B2775E39200A70626 /* ImageView.swift in Sources */,
 				9B63B6952775CAEE00A70626 /* LoginViewController.swift in Sources */,
 				9B63B6932775CA7600A70626 /* RegisterViewController.swift in Sources */,
+				9B863A6D278C3EBD003E8288 /* Alert.swift in Sources */,
 				9B015BA4277A467E00F989E6 /* FoodViewController.swift in Sources */,
 				9B7537AC2781D80E00B86E27 /* BundleExtention.swift in Sources */,
 				9BCE503A277C5EEA00863ABD /* Post.swift in Sources */,

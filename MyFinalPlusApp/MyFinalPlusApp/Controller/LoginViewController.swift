@@ -23,6 +23,11 @@ class LoginViewController: UIViewController {
            let password = passwordTextField.text {
             Activity.showIndicator(parentView: self.view, childView: activityIndicator)
             Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
+                if let error = error {
+                Alert.showAlert(strTitle: "Error", strMessage: error.localizedDescription, viewController: self)
+                                Activity.removeIndicator(parentView: self.view, childView: self.activityIndicator)
+                                   print("Registration Storage Error",error.localizedDescription)
+                               
                 if let _ = authResult {
                     if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeNavigationController") as? UINavigationController {
                         vc.modalPresentationStyle = .fullScreen
@@ -33,6 +38,8 @@ class LoginViewController: UIViewController {
             }
         }
     }
+}
+    
     @IBOutlet weak var EmailLabel: UILabel!{
         didSet {
             EmailLabel.text = "Email".localized
@@ -48,7 +55,7 @@ class LoginViewController: UIViewController {
     }
     @IBOutlet weak var LoginButton: UIButton!{
         didSet {
-            LoginButton.setTitle("Login".localized, for: .normal)
+            LoginButton.setTitle("Sign in".localized, for: .normal)
         }
     }
     

@@ -10,8 +10,11 @@ import Firebase
 class DataTVCell: UITableViewCell {
 @IBOutlet weak var restaurantNameLabel: UILabel!
     
-@IBOutlet weak var DeliveryTimeLabel: UILabel!
-    
+    @IBOutlet weak var DeliveryTimeLabel: UILabel!{
+        didSet {
+        DeliveryTimeLabel.text = "SR".localized
+    }
+    }
 @IBOutlet weak var DeliveryPriceLabel: UILabel!{
         didSet {
         DeliveryPriceLabel.text = "SR".localized

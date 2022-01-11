@@ -41,8 +41,8 @@
 //"DeliveryPrice" = "سعر التوصيل";
 "Update Food"  = "تعديل";
 "Add Food" = "إضافة";
-"SR" = "س.ر";
-
+"SR" = "س.ت";
+"SR" = "و.ت";
 
 //"MealType" = "نوع الوجبة";
 //"Description" = "الوصف";
