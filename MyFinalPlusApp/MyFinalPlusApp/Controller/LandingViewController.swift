@@ -10,7 +10,7 @@ import UIKit
 class LandingViewController: UIViewController {
 @IBOutlet weak var WelcomeLabel: UILabel! {
     didSet {
-        WelcomeLabel.text = "WelcomeToMyAPP".localized
+        WelcomeLabel.text = "WelcomeTo THE PLUS APP".localized
     }
 }
 @IBOutlet weak var RegisterButton: UIButton!{

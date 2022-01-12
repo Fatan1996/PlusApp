@@ -26,8 +26,8 @@ class LoginViewController: UIViewController {
                 if let error = error {
                 Alert.showAlert(strTitle: "Error", strMessage: error.localizedDescription, viewController: self)
                                 Activity.removeIndicator(parentView: self.view, childView: self.activityIndicator)
-                                   print("Registration Storage Error",error.localizedDescription)
-                               
+                                 //  print("Registration Storage Error",error.localizedDescription)
+                }
                 if let _ = authResult {
                     if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeNavigationController") as? UINavigationController {
                         vc.modalPresentationStyle = .fullScreen
@@ -38,7 +38,7 @@ class LoginViewController: UIViewController {
             }
         }
     }
-}
+//}
     
     @IBOutlet weak var EmailLabel: UILabel!{
         didSet {
@@ -56,6 +56,19 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var LoginButton: UIButton!{
         didSet {
             LoginButton.setTitle("Sign in".localized, for: .normal)
+        }
+    }
+    
+    @IBAction func changePasswordVisibility(_ sender: AnyObject) {
+    passwordTextField.isSecureTextEntry.toggle()
+        if passwordTextField.isSecureTextEntry {
+            if let image = UIImage(systemName: "eye.fill") {
+                sender.setImage(image, for: .normal)
+            }
+        } else {
+            if let image = UIImage(systemName: "eye.slash.fill") {
+                sender.setImage(image, for: .normal)
+            }
         }
     }
     
