@@ -31,6 +31,8 @@ class FoodViewController: UIViewController {
     let activityIndicator = UIActivityIndicatorView()
     override func viewDidLoad() {
         super.viewDidLoad()
+    view.addGestureRecognizer(UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing(_:))))
+        
         if let selectedFood = selectedFood,
         let selectedPostImage = selectedPostImage{
         DeliveryPriceTextField.text = selectedFood.price

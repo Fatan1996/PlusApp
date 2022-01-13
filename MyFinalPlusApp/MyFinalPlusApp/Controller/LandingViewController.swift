@@ -57,7 +57,6 @@ class LandingViewController: UIViewController {
             
 override func viewDidLoad() {
         super.viewDidLoad()
-
 }
     @IBAction func languageChanged(_ sender: UISegmentedControl) {
         if let lang = sender.titleForSegment(at:sender.selectedSegmentIndex)?.lowercased() {

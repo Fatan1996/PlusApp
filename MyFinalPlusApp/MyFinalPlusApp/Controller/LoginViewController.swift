@@ -16,6 +16,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+view.addGestureRecognizer(UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing(_:))))
     }
     
     @IBAction func handleLogin(_ sender: Any) {
@@ -59,18 +60,7 @@ class LoginViewController: UIViewController {
         }
     }
     
-    @IBAction func changePasswordVisibility(_ sender: AnyObject) {
-    passwordTextField.isSecureTextEntry.toggle()
-        if passwordTextField.isSecureTextEntry {
-            if let image = UIImage(systemName: "eye.fill") {
-                sender.setImage(image, for: .normal)
-            }
-        } else {
-            if let image = UIImage(systemName: "eye.slash.fill") {
-                sender.setImage(image, for: .normal)
-            }
-        }
-    }
+    
     
     
 }

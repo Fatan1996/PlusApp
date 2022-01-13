@@ -32,6 +32,7 @@ var activityIndicator = UIActivityIndicatorView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+view.addGestureRecognizer(UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing(_:))))
     imagePickerController.delegate = self
     }
     @IBAction func handleRegister(_ sender: Any) {
@@ -133,36 +134,7 @@ var activityIndicator = UIActivityIndicatorView()
         }
     }
     
-    @IBAction func changePasswordVisibility(_ sender: AnyObject) {
-    passwordTextField.isSecureTextEntry.toggle()
-        if passwordTextField.isSecureTextEntry {
-            if let image = UIImage(systemName: "eye.fill") {
-                sender.setImage(image, for: .normal)
-            }
-        } else {
-            if let image = UIImage(systemName: "eye.slash.fill") {
-                sender.setImage(image, for: .normal)
-            }
-        }
-    }
-    
-    @IBAction func changeconfirmPassword(_ sender: AnyObject) {
-    
-    confirmPasswordTextField.isSecureTextEntry.toggle()
-            if confirmPasswordTextField.isSecureTextEntry {
-                if let image = UIImage(systemName: "eye.fill") {
-                    sender.setImage(image, for: .normal)
-                }
-            } else {
-                if let image = UIImage(systemName: "eye.slash.fill") {
-                    sender.setImage(image, for: .normal)
-                }
-            }
-        }
-
 }
-    
-    
 
 extension RegisterViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
