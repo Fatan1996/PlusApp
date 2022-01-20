@@ -16,21 +16,10 @@
 "PasswordComfirm" = "PasswordComfirm";
 "PhoneNumber" = "PhoneNumber";
 
-//"Register" = "Register";
-//"Email" = "Email";
-//"Password" = "Password";
-//"Login" = "Login";
+
 
 "RestaurantName" = "RestaurantName";
 "Evaluation" = "Evaluation";
-
-
-//"MealType" = "MealType";
-//"Description" = "Description";
-//"Price" = "Price";
-//"DeliveryTime" = "DeliveryTime";
-//"DeliveryPrice" = "DeliveryPrice";
-
 
 
 "RestaurantName" = "Restaurant Name";
@@ -43,14 +32,6 @@
 "Add Food" = "Add Food";
 "SR" = "SR";
 "SR" = "SR";
-
-
-
-//"MealType" = "Meal Type";
-//"Description" = "Description";
-//"Price" = "Price";
-//"DeliveryTime" = "Delivery Time";
-//"DeliveryPrice" = "Delivery Price";
 
 
 "Paying off" = "Paying off";

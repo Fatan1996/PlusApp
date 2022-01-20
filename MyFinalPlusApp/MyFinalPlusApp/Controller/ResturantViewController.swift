@@ -22,6 +22,7 @@ class ResturantViewController: UIViewController {
         getPosts()
         // Do any additional setup after loading the view.
     }
+    // Fairpass
     func getPosts() {
         let ref = Firestore.firestore()
         ref.collection("posts").order(by: "createdAt",descending: true).addSnapshotListener { snapshot, error in

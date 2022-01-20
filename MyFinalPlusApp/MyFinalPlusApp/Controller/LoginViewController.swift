@@ -13,11 +13,32 @@ class LoginViewController: UIViewController {
        UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    @IBOutlet weak var eyePasword: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        passwordTextField.rightView = eyePasword
+               passwordTextField.rightViewMode = .whileEditing
+               
 view.addGestureRecognizer(UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing(_:))))
     }
+    
+    
+    @IBAction func eyePass(_ sender: UIButton) {
+        
+        passwordTextField.isSecureTextEntry.toggle()
+                if passwordTextField.isSecureTextEntry {
+                    if let image = UIImage(systemName: "eye.fill") {
+                        sender.setImage(image, for: .normal)
+                    }
+                } else {
+                    if let image = UIImage(systemName: "eye.slash.fill"){
+                        sender.setImage(image, for: .normal)
+                    }
+                }
+            }
+
+    
     
     @IBAction func handleLogin(_ sender: Any) {
         if let email = emailTextField.text,

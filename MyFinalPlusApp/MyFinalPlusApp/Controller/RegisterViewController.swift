@@ -30,11 +30,51 @@ var activityIndicator = UIActivityIndicatorView()
     @IBOutlet weak var confirmPasswordTextField: UITextField!
     @IBOutlet weak var phoneNumberTextField: UITextField!
     
+    @IBOutlet weak var eyePassword: UIButton!
+    
+    
+    @IBOutlet weak var eyeConPassword: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 view.addGestureRecognizer(UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing(_:))))
     imagePickerController.delegate = self
+        
+        
+        passwordTextField.rightView = eyePassword
+        passwordTextField.rightViewMode = .whileEditing
+        
+        confirmPasswordTextField.rightView = eyeConPassword
+        confirmPasswordTextField.rightViewMode = .whileEditing
     }
+    
+    @IBAction func eyePas(_ sender: UIButton) {
+        passwordTextField.isSecureTextEntry.toggle()
+               if passwordTextField.isSecureTextEntry {
+                   if let image = UIImage(systemName: "eye.fill") {
+                       sender.setImage(image, for: .normal)
+                   }
+               } else {
+                   if let image = UIImage(systemName: "eye.slash.fill"){
+                       sender.setImage(image, for: .normal)
+                   }
+               }
+           }
+           
+           @IBAction func changePasswordVisibility(_ sender: UIButton) {
+               confirmPasswordTextField.isSecureTextEntry.toggle()
+               if confirmPasswordTextField.isSecureTextEntry {
+                   if let image = UIImage(systemName: "eye.fill") {
+                       sender.setImage(image, for: .normal)
+                   }
+               } else {
+                   if let image = UIImage(systemName: "eye.slash.fill"){
+                       sender.setImage(image, for: .normal)
+                   }
+               }
+           }
+    
+    
     @IBAction func handleRegister(_ sender: Any) {
         if let image = userImageView.image,
            let imageData = image.jpegData(compressionQuality: 0.75),
